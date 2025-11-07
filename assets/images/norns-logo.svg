@@ -1,0 +1,25 @@
+<svg width="600" height="180" viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- N - First letter with rounded corners and wider diagonal stroke -->
+  <rect x="25" y="35" width="22" height="110" rx="6" fill="#2a2a2a"/>
+  <path d="M 47 35 L 47 70 L 75 145 L 75 35" fill="#2a2a2a"/>
+  <rect x="75" y="35" width="22" height="110" rx="6" fill="#2a2a2a"/>
+  
+  <!-- O - Thick, perfectly rounded oval -->
+  <ellipse cx="135" cy="90" rx="30" ry="50" fill="#2a2a2a"/>
+  <ellipse cx="135" cy="90" rx="18" ry="35" fill="#ffffff"/>
+  
+  <!-- R - Rounded loop with unique angular leg extending down and right -->
+  <rect x="190" y="35" width="22" height="110" rx="6" fill="#2a2a2a"/>
+  <path d="M 212 35 Q 245 35 245 70 Q 245 80 238 75 Q 245 70 245 60 Q 245 35 212 35 Z" fill="#2a2a2a"/>
+  <ellipse cx="228" cy="60" rx="10" ry="15" fill="#ffffff"/>
+  <path d="M 212 85 L 245 145 L 245 85" fill="#2a2a2a"/>
+  
+  <!-- N - Second letter -->
+  <rect x="270" y="35" width="22" height="110" rx="6" fill="#2a2a2a"/>
+  <path d="M 292 35 L 292 70 L 320 145 L 320 35" fill="#2a2a2a"/>
+  <rect x="320" y="35" width="22" height="110" rx="6" fill="#2a2a2a"/>
+  
+  <!-- S - Smooth flowing curve with rounded terminals, stretched horizontally -->
+  <path d="M 370 60 Q 370 35 395 35 L 420 35 Q 445 35 445 60 Q 445 75 435 80 Q 445 85 445 105 Q 445 130 420 130 L 395 130 Q 370 130 370 105 Q 370 90 380 85 Q 370 80 370 60 Z" fill="#2a2a2a"/>
+</svg>
+

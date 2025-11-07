@@ -258,5 +258,5 @@ ecommerceBadges.forEach(badge => {
 });
 
 // Console message
-console.log('%cNorth Star', 'font-size: 20px; font-weight: bold; color: #1a1a1a;');
+console.log('%cNorns', 'font-size: 20px; font-weight: bold; color: #1a1a1a;');
 console.log('%cBem-vindo ao nosso site!', 'font-size: 14px; color: #666;');

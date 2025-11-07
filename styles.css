@@ -225,9 +225,11 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 12px;
     transition: var(--transition);
+    background: transparent;
+    padding: 2rem;
 }
 
 .hero__placeholder:hover img {
