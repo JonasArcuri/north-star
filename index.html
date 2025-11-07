@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star - Solução de Pagamentos que Transforma Checkout em Vantagem Competitiva</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2>North Star</h2>
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#produtos" class="nav__link">Produtos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#ofertas" class="nav__link">Ofertas</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#negocios" class="nav__link">Negócios que atendemos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#sobre" class="nav__link">Sobre</a>
+                </li>
+                <li class="nav__item nav__item--dropdown">
+                    <a href="#desenvolvedores" class="nav__link">Desenvolvedores</a>
+                    <ul class="nav__dropdown">
+                        <li><a href="#">Guia de integração</a><span>Saiba como começar a usar o North Star</span></li>
+                        <li><a href="#">Documentação</a><span>Referências e bibliotecas da nossa API</span></li>
+                        <li><a href="#">Dúvidas</a><span>Confira nossa Central de Ajuda</span></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav__actions">
+                <a href="#" class="nav__link nav__link--action">Entrar</a>
+                <a href="#" class="btn btn--primary btn--small">Seja North Star</a>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">A solução de pagamentos que transforma checkout em vantagem competitiva</h1>
+                <p class="hero__description">
+                    O North Star é a solução de pagamentos que transforma checkout em vantagem competitiva: rápida, confiável, transparente e integrada com o ecossistema do lojista. Nosso objetivo: aumentar a taxa de conversão e reduzir fricção operacional.
+                </p>
+                <button class="btn btn--primary btn--large">
+                    <i class="fas fa-user-plus"></i>
+                    Cadastre-se
+                </button>
+            </div>
+            <div class="hero__image">
+                <div class="hero__placeholder">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&q=80" alt="Tecnologia financeira e pagamentos digitais" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1556740758-90de374c12ad?w=800&h=600&fit=crop&q=80'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <p class="partners__title">A solução de pagamentos ideal para todos os tamanhos e modelos de negócio.</p>
+            <div class="partners__logos">
+                <div class="partner__logo">alipay</div>
+                <div class="partner__logo">casa e video</div>
+                <div class="partner__logo">leroy merlin</div>
+                <div class="partner__logo">Polishop</div>
+                <div class="partner__logo">usaflex</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section__title">Plataforma de pagamentos completa para sua empresa</h2>
+            <div class="features__grid">
+                <div class="feature__card">
+                    <div class="feature__icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="feature__title">Checkout otimizado</h3>
+                    <p class="feature__description">Checkout intuitivo, Pix, recorrência e Split para aumentar sua taxa de conversão</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3 class="feature__title">Fácil integração</h3>
+                    <p class="feature__description">Conecte o North Star diretamente à sua plataforma ou implemente via API</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature__title">Rápida e confiável</h3>
+                    <p class="feature__description">Infraestrutura PCI Compliance, antifraude e alta estabilidade para reduzir fricção operacional</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature__title">Transparência total</h3>
+                    <p class="feature__description">Acompanhe suas vendas, saldos e repasses com total transparência em um só lugar</p>
+                </div>
+                <div class="feature__card">
+                    <div class="feature__icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="feature__title">Atendimento humano</h3>
+                    <p class="feature__description">Fale com um especialista que entende do seu negócio, em segundos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="produtos">
+        <div class="container">
+            <h2 class="section__title">Transforme checkout em vantagem competitiva</h2>
+            <p class="section__subtitle">
+                Aumente sua taxa de conversão e reduza fricção operacional com uma solução rápida, confiável, transparente e integrada com seu ecossistema.
+            </p>
+            <div class="products__list">
+                <div class="product__item">
+                    <div class="product__icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h4 class="product__title">Cartão, Pix, boleto e carteiras digitais</h4>
+                    <p class="product__description">Aceite as principais formas de pagamento online</p>
+                </div>
+                <div class="product__item">
+                    <div class="product__icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h4 class="product__title">Melhor experiência de checkout</h4>
+                    <p class="product__description">Processo responsivo e seguro, que não redireciona o usuário</p>
+                </div>
+                <div class="product__item">
+                    <div class="product__icon">
+                        <i class="fas fa-mouse-pointer"></i>
+                    </div>
+                    <h4 class="product__title">One-Click Buy e recorrência</h4>
+                    <p class="product__description">Salve os cartões dos seus clientes para compras e assinaturas</p>
+                </div>
+                <div class="product__item">
+                    <div class="product__icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h4 class="product__title">Links de Pagamento personalizados</h4>
+                    <p class="product__description">Venda nas redes sociais e recupere carrinhos abandonados</p>
+                </div>
+                <div class="product__item">
+                    <div class="product__icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h4 class="product__title">Split de Pagamento customizável</h4>
+                    <p class="product__description">Automatize a divisão e o repasse de pagamentos entre recebedores</p>
+                </div>
+            </div>
+            <div class="products__cta">
+                <button class="btn btn--secondary">
+                    <i class="fas fa-chart-line"></i>
+                    Quero vender mais
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- E-commerce Section -->
+    <section class="ecommerce">
+        <div class="container">
+            <h2 class="section__title">Mais flexibilidade para escalar o seu negócio</h2>
+            <p class="section__subtitle">
+                Soluções para todos os tamanhos e modelos de negócio. Do pequeno ao grande, ajudamos a aumentar sua taxa de conversão e reduzir fricção operacional.
+            </p>
+            <div class="ecommerce__content">
+                <div class="ecommerce__options">
+                    <div class="ecommerce__option ecommerce__option--active">
+                        <div class="ecommerce__image">
+                            <div class="ecommerce__placeholder">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&q=80" alt="E-commerce e vendas online" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop&q=80'">
+                            </div>
+                        </div>
+                        <div class="ecommerce__badge">
+                            <i class="fas fa-check-circle"></i>
+                            Pronto para usar
+                        </div>
+                        <div class="ecommerce__badge ecommerce__badge--secondary">
+                            <i class="fas fa-cog"></i>
+                            Customizado
+                        </div>
+                        <h3 class="ecommerce__option-title">
+                            <i class="fas fa-store"></i>
+                            Descomplique suas vendas online
+                        </h3>
+                        <p class="ecommerce__option-description">
+                            Solução pronta para vender de forma simples e segura, com integração direta com as principais plataformas de e-commerce. É só integrar e começar a vender!
+                        </p>
+                        <button class="btn btn--outline">
+                            <i class="fas fa-arrow-right"></i>
+                            Comece agora
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Management Section -->
+    <section class="management">
+        <div class="container">
+            <h2 class="section__title">Controle suas vendas em tempo real</h2>
+            <p class="section__subtitle">
+                Acompanhe vendas, saldos e repasses com total transparência. Centralize sua gestão financeira e reduza fricção operacional com decisões mais estratégicas.
+            </p>
+            <ul class="management__list">
+                <li class="management__item">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>Consulte valores e prazos de recebimento</span>
+                </li>
+                <li class="management__item">
+                    <i class="fas fa-eye"></i>
+                    <span>Visualize taxas e motivos de recusa</span>
+                </li>
+                <li class="management__item">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Extraia relatórios personalizados</span>
+                </li>
+                <li class="management__item">
+                    <i class="fas fa-undo"></i>
+                    <span>Realize estornos e gerencie chargebacks</span>
+                </li>
+                <li class="management__item">
+                    <i class="fas fa-forward"></i>
+                    <span>Antecipe seus recebíveis</span>
+                </li>
+            </ul>
+            <div class="management__cta">
+                <button class="btn btn--primary">
+                    <i class="fas fa-user-plus"></i>
+                    Cadastre-se já
+                </button>
+            </div>
+            <div class="management__image">
+                <div class="management__placeholder">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&h=700&fit=crop&q=80" alt="Dashboard e gestão financeira" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&h=700&fit=crop&q=80'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Section -->
+    <section class="performance">
+        <div class="container">
+            <h2 class="section__title">Rápida, confiável e segura</h2>
+            <p class="section__subtitle">
+                Nossa tecnologia segue os mais rigorosos padrões do mercado de pagamentos, garantindo velocidade, confiabilidade e segurança para transformar seu checkout em vantagem competitiva.
+            </p>
+            <div class="performance__grid">
+                <div class="performance__card">
+                    <div class="performance__icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="performance__title">PCI Compliance</h3>
+                    <p class="performance__description">
+                        O North Star é certificado pelo PCI DSS Nível 1, protegendo os dados sensíveis dos seus clientes.
+                    </p>
+                </div>
+                <div class="performance__card">
+                    <div class="performance__icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="performance__title">Estabilidade transacional</h3>
+                    <p class="performance__description">
+                        Infraestrutura capaz de processar milhares de transações por segundo.
+                    </p>
+                </div>
+                <div class="performance__card">
+                    <div class="performance__icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 class="performance__title">Proteção antifraude</h3>
+                    <p class="performance__description">
+                        Conte com sistema antifraude e autenticação 3DS 2.0 para proteger suas vendas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="support">
+        <div class="container">
+            <div class="support__content">
+                <h2 class="section__title">Atendimento humano de verdade</h2>
+                <p class="section__subtitle">
+                    Fale com um time especializado e pronto para te ajudar, em segundos. Aqui, você é atendido por pessoas que entendem do seu negócio e te ajudam com agilidade e eficiência
+                </p>
+                <button class="btn btn--primary">
+                    <i class="fas fa-user-plus"></i>
+                    Cadastre-se agora
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Implementation Section -->
+    <section class="implementation">
+        <div class="container">
+            <div class="implementation__content">
+                <div class="implementation__text">
+                    <h2 class="section__title">Fácil implementação</h2>
+                    <p class="section__subtitle">
+                        Além de integração com as principais plataformas do mercado, o North Star tem uma documentação detalhada e SDKs para você implementar nossa API com facilidade. <a href="#" class="link">Confira a documentação</a>
+                    </p>
+                    <button class="btn btn--secondary">
+                        <i class="fas fa-rocket"></i>
+                        Quero começar
+                    </button>
+                </div>
+                <div class="implementation__image">
+                    <div class="implementation__placeholder">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop&q=80" alt="Código e desenvolvimento de API" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop&q=80'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="about__content">
+                <h2 class="section__title">North Star para quem vende online</h2>
+                <h3 class="about__subtitle">O North Star é a solução de pagamentos que transforma checkout em vantagem competitiva</h3>
+                <p class="about__description">
+                    Rápida, confiável, transparente e integrada com o ecossistema do lojista. Feita para aumentar a taxa de conversão e reduzir fricção operacional.
+                </p>
+                <button class="btn btn--outline">
+                    <i class="fas fa-info-circle"></i>
+                    Conheça o North Star
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section__title">A opinião de quem usa e recomenda:</h2>
+            <div class="testimonials__rating">
+                <span class="rating__value">9.5/10</span>
+            </div>
+            <div class="testimonials__grid">
+                <div class="testimonial__card">
+                    <p class="testimonial__text">
+                        "Mudei recentemente para o North Star e estou encantada com tudo! A interface é bem melhor que a de outros sistemas que já utilizei, fácil de mexer, mais completa e o atendimento é impecável. Estou muito satisfeita e recomendo a todos!"
+                    </p>
+                    <p class="testimonial__author">Luisa Dias</p>
+                    <p class="testimonial__role">Founder Loja Criare</p>
+                </div>
+                <div class="testimonial__card">
+                    <p class="testimonial__text">
+                        "A eficiência do North Star facilita a vida de milhares de pessoas que realizam projetos incríveis no Catarse."
+                    </p>
+                    <p class="testimonial__author">Luis Otávio Ribeiro</p>
+                    <p class="testimonial__role">Co-founder Cartase</p>
+                </div>
+                <div class="testimonial__card">
+                    <p class="testimonial__text">
+                        "Além de mais que triplicar as taxas de conversão em compras, toda a tecnologia permitiu de forma muito simples que pudéssemos escalar o nosso negócio sem nos preocupar com a plataforma de pagamento."
+                    </p>
+                    <p class="testimonial__author">Marcio Acorci</p>
+                    <p class="testimonial__role">Co-founder & CEO Wedy</p>
+                </div>
+                <div class="testimonial__card">
+                    <p class="testimonial__text">
+                        "O North Star tem sido uma parte crucial da nossa operação oferecendo um serviço excepcional com um dashboard incrível."
+                    </p>
+                    <p class="testimonial__author">Bruno Mozer</p>
+                    <p class="testimonial__role">Founder Click Sophia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">NAVEGAÇÃO</h3>
+                    <ul class="footer__list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#ofertas">Ofertas</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#negocios">Negócios que atendemos</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__title">SUPORTE</h3>
+                    <ul class="footer__list">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Guias de integração</a></li>
+                        <li><a href="#">Documentação</a></li>
+                        <li><a href="#">Boleto DDA</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__title">NORTH STAR</h3>
+                    <ul class="footer__list">
+                        <li><a href="#">Área do cliente</a></li>
+                        <li><a href="#">Veja nossas vagas</a></li>
+                        <li><a href="#">Termos de uso</a></li>
+                        <li><a href="#">Aviso de cookies</a></li>
+                        <li><a href="#">Aviso de privacidade</a></li>
+                        <li><a href="#">Política institucional de PLD-CFT</a></li>
+                        <li><a href="#">Portal de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3 class="footer__title">CONTATO</h3>
+                    <ul class="footer__list">
+                        <li>Já sou cliente: 4004-1330</li>
+                        <li>Quero ser cliente</li>
+                    </ul>
+                    <p class="footer__address">Av. Rebouças, 2880, 4º andar, Pinheiros, CEP 05.402-500 – São Paulo/SP</p>
+                </div>
+            </div>
+            <div class="footer__social">
+                <a href="#" class="footer__social-link" aria-label="Facebook">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                </a>
+                <a href="#" class="footer__social-link" aria-label="Twitter">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    </svg>
+                </a>
+                <a href="#" class="footer__social-link" aria-label="YouTube">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 North Star. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
